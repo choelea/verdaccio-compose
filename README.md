@@ -11,7 +11,7 @@ Note: we should add more sort of configurations here.
 **Nginx HTTP Example**
 
 ```bash
-docker-compose up --build --force-recreate
+docker compose up --build --force-recreate
 ```
 
 open the browser
@@ -26,7 +26,7 @@ http://localhost/relative_path/
  - 修改 `nginx-default.conf`,改域名设置
 
 ```bash
-docker-compose -f docker-compose_ssl.yml up --build --force-recreate
+docker compose -f docker-compose_ssl.yml up --build --force-recreate
 ```
 
 open the browser
